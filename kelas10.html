@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas 10 - MATERI78</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="fw-bold mb-4">Materi Kelas 10</h1>
+                    <p class="lead mb-0">Pilih mata pelajaran yang ingin kamu pelajari</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tombol Kembali -->
+    <div class="container-fluid px-5 mt-4">
+        <a href="index.html" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left me-2"></i>Kembali ke Beranda
+        </a>
+    </div>
+
+    <!-- Materi Section -->
+    <section class="materi-section py-5">
+        <div class="container-fluid px-5">
+            <div class="row g-4">
+                <!-- Kelompok A - Wajib -->
+                <div class="col-12 mb-4">
+                    <h4 class="fw-bold mb-4">Kelas X</h4>
+                </div>
+
+                <!-- Bahasa Indonesia -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-book text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Bahasa Indonesia</h5>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">• Teks deskripsi</li>
+                                <li class="mb-2">• Teks laporan hasil observasi</li>
+                                <li class="mb-2">• Teks eksposisi</li>
+                                <li class="mb-2">• Teks prosedur</li>
+                                <li class="mb-2">• Puisi rakyat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Matematika -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-square-root-alt text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Matematika</h5>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">• Logaritma dan eksponen</li>
+                                <li class="mb-2">• Persamaan kuadrat</li>
+                                <li class="mb-2">• Matriks</li>
+                                <li class="mb-2">• Trigonometri dasar</li>
+                                <li class="mb-2">• Fungsi dan grafik fungsi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fisika -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-atom text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Fisika</h5>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">• Besaran dan satuan</li>
+                                <li class="mb-2">• Gerak lurus dan melingkar</li>
+                                <li class="mb-2">• Hukum Newton</li>
+                                <li class="mb-2">• Energi dan usaha</li>
+                                <li class="mb-2">• Fluida statis dan dinamis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kimia -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-flask text-primary me-2"></i>
+                                <h5 class="card-title mb-0">Kimia</h5>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">• Struktur atom</li>
+                                <li class="mb-2">• Sistem periodik unsur</li>
+                                <li class="mb-2">• Ikatan kimia</li>
+                                <li class="mb-2">• Larutan elektrolit</li>
+                                <li class="mb-2">• Hukum-hukum dasar kimia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        :root {
+            --primary-color: #ff6b35;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(255, 107, 53, 0.9), rgba(255, 134, 89, 0.7));
+            color: white;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .text-primary {
+            color: var(--primary-color) !important;
+        }
+
+        .list-unstyled li {
+            color: #666;
+        }
+
+        @media (min-width: 1400px) {
+            .container-fluid {
+                max-width: 1600px;
+            }
+        }
+    </style>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
